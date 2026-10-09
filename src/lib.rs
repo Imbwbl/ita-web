@@ -1,6 +1,7 @@
 use wasm_bindgen::prelude::*;
+use image::{RgbImage};
 
 #[wasm_bindgen]
-pub fn addition(a: i32, b: i32) -> i32 {
-    a + b
+pub fn image_to_ascii(image: Vec<u8>) -> Vec<u8> {
+
 }

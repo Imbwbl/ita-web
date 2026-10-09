@@ -4,7 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+image = "0.25.10"
 wasm-bindgen = "0.2.129"
+web-sys = { version = "0.3.106", features = ["File"] }
 
 [lib]
 crate-type = ["cdylib", "rlib"]
